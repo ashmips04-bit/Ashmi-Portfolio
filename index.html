@@ -496,7 +496,7 @@
     color: var(--light-text);
     letter-spacing: 1px;
   }
-
+ 
   .project-link-hint {
     display: flex;
     align-items: center;
@@ -595,7 +595,7 @@
     transition: all 0.2s ease;
   }
 
-  .cert-item:hover {
+  a.cert-item:hover {
     border-color: var(--sage);
     background: rgba(181,196,177,0.1);
   }
@@ -721,11 +721,6 @@
     flex-wrap: wrap;
     gap: 8px;
   }
- 
-  .cert-item {
-    text-decoration: none;   /* removes underline */
-    color: inherit;          /* keeps same text color */
-  }
 
   .tag {
     font-size: 12px;
@@ -735,6 +730,11 @@
     border: 1px solid var(--border);
     color: var(--mid);
     font-weight: 300;
+  }
+
+  .cert-item {
+    text-decoration: none;   /* removes underline */
+    color: inherit;          /* keeps same text color */
   }
 
   .contact-bottom {
@@ -946,6 +946,12 @@
             <div class="exp-company">Srishti Innovative Computer Systems, Technopark, Trivandrum</div>
             <div class="exp-period">Jul 2024 – Jul 2024</div>
             <div class="exp-desc">Gained hands-on experience in building and testing Android applications using Android Studio. Learned UI design, activity lifecycle management, and assisted in module development under the guidance of senior developers.</div>
+ <a href="Srishti_Intern.pdf" target="_blank"
+     style="display: inline-block; margin-top: 16px; font-size: 13px; color: var(--terracotta); text-decoration: none; transition: 0.2s;"
+     onmouseover="this.style.transform='translateX(3px)'"
+     onmouseout="this.style.transform='translateX(0)'">
+     → View Certificate
+  </a>
           </div>
 
           <div class="achieve-section">
@@ -953,7 +959,12 @@
             <div class="achieve-grid" style="grid-template-columns: 1fr; gap: 12px; margin-top: 16px;">
               <div class="achieve-card" style="display: flex; align-items: center; gap: 16px; text-align: left; padding: 20px;">
                 <div class="achieve-emoji">🥈</div>
-                <div class="achieve-title">Science Expo — Kumari Fest (Runner Up)</div>
+                <a href="Expo.pdf" class="achieve-title"target="_blank"
+   style="text-decoration: none; color: inherit; transition: all 0.2s ease;"
+   onmouseover="this.style.color='#C17C5E'; this.style.transform='translateX(3px)'"
+   onmouseout="this.style.color='inherit'; this.style.transform='translateX(0)'">
+   Science Expo — Kumari Fest (Runner Up)
+</a>
               </div>
               <div class="achieve-card" style="display: flex; align-items: center; gap: 16px; text-align: left; padding: 20px;">
                 <div class="achieve-emoji">🏆</div>
@@ -961,7 +972,9 @@
               </div>
               <div class="achieve-card" style="display: flex; align-items: center; gap: 16px; text-align: left; padding: 20px;">
                 <div class="achieve-emoji">🏅</div>
-                <div class="achieve-title">Podium positions in college athletic events</div>
+                <a href="Podium.pdf" target="_blank" class="achieve-title" style="text-decoration: none; color: inherit;transition: all 0.2s ease;"
+   onmouseover="this.style.color='#C17C5E'; this.style.transform='translateX(3px)'"
+   onmouseout="this.style.color='inherit'; this.style.transform='translateX(0)'">Podium positions in college athletic events</a>
               </div>
             </div>
           </div>
@@ -971,19 +984,19 @@
           <p class="section-label" style="margin-bottom: 20px;">Certifications & Training</p>
           <div class="certs-list" style="margin-bottom: 32px;">
             <a href="AI_ML_IIT.pdf" target="_blank" class="cert-item"><span class="cert-icon">🎓</span>AI & ML using Python – IITM Pravartak (2026)</a>
-            <div class="cert-item"><div class="cert-icon">📊</div>Data Analytics, Machine Learning & AI — Novi Tech, Coimbatore</div>
-            <div class="cert-item"><div class="cert-icon">🥽</div>AR &amp; VR — NASSCOM</div>
-            <div class="cert-item"><div class="cert-icon">☁️</div>Cloud Computing — NPTEL</div>
-            <div class="cert-item"><div class="cert-icon">🌐</div>Digital Productivity with AI — UNICEF</div>
-            <div class="cert-item"><div class="cert-icon">🎖️</div>B &amp; C Certificates in NCC — Ministry of Defence, Govt. of India</div>
+            <a href="Novi_Tech.pdf" target="_blank" class="cert-item"><span class="cert-icon">📊</span>Data Analytics, Machine Learning & AI — Novi Tech</a>
+            <a href="AR&VR_NAASCOM.pdf" target="_blank" class="cert-item"><span class="cert-icon">🥽</span>AR & VR — NASSCOM</a>
+            <a href="Nptel.pdf" target="_blank" class="cert-item"><span class="cert-icon">☁️</span>Cloud Computing — NPTEL</a>
+            <a href="Unicef.pdf" target="_blank" class="cert-item"><span class="cert-icon">🌐</span>Digital Productivity with AI — UNICEF</a>
+            <a href="NCC.pdf" target="_blank" class="cert-item"><span class="cert-icon">🎖️</span>NCC ‘B’ & ‘C’ Certificates</a>
           </div>
 
           <p class="section-label" style="margin-bottom: 16px;">Extra-Curriculars</p>
           <div class="certs-list">
-            <div class="cert-item"><div class="cert-icon">🎽</div>Cadet (L/CPL) — NCC</div>
-            <div class="cert-item"><div class="cert-icon">🌟</div>Brand Ambassador — IIC</div>
+            <a href="Camp.pdf" target="_blank" class="cert-item"><span class="cert-icon">🎽</span>Cadet (L/CPL) — NCC</a>
+            <a href="IIC.pdf" target="_blank" class="cert-item"><span class="cert-icon">🌟</span>Brand Ambassador — IIC</a>
             <div class="cert-item"><div class="cert-icon">🌱</div>Member — YUVA Club</div>
-            <div class="cert-item"><div class="cert-icon">📚</div>Member — Readers Club</div>
+            <div class="cert-item" style="cursor: default;"><div class="cert-icon">📚</div>Member — Readers Club</div>
           </div>
         </div>
       </div>
