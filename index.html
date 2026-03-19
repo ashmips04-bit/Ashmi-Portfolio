@@ -721,6 +721,11 @@
     flex-wrap: wrap;
     gap: 8px;
   }
+ 
+  .cert-item {
+    text-decoration: none;   /* removes underline */
+    color: inherit;          /* keeps same text color */
+  }
 
   .tag {
     font-size: 12px;
@@ -965,7 +970,7 @@
         <div>
           <p class="section-label" style="margin-bottom: 20px;">Certifications & Training</p>
           <div class="certs-list" style="margin-bottom: 32px;">
-            <div class="cert-item"><div class="cert-icon">🎓</div>AI_ML using Python – IITM Pravartak (2026)</div>
+            <a href="AI_ML_IIT.pdf" target="_blank" class="cert-item"><span class="cert-icon">🎓</span>AI & ML using Python – IITM Pravartak (2026)</a>
             <div class="cert-item"><div class="cert-icon">📊</div>Data Analytics, Machine Learning & AI — Novi Tech, Coimbatore</div>
             <div class="cert-item"><div class="cert-icon">🥽</div>AR &amp; VR — NASSCOM</div>
             <div class="cert-item"><div class="cert-icon">☁️</div>Cloud Computing — NPTEL</div>
